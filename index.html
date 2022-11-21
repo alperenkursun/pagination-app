@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <script
+      src="https://kit.fontawesome.com/a3e10ed635.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pagination App</title>
+  </head>
+  <body class="bg-secondary container text-center">
+    <h1
+      id="pag"
+      class="text-white border-bottom border-light p-2 d-inline-block mt-5"
+    >
+      Loading...
+    </h1>
+    <div class="row mt-5 d-flex justify-content-center">
+      <div id="1" class="col-2 bg-white rounded shadow p-4 m-4">
+        <img
+          id="img1"
+          src=""
+          class="rounded-circle"
+          style="width: 135px; height: 135px"
+        />
+        <h6 id="h1" class="text-secondary mt-3"></h6>
+        <button onclick="locationn(id)" class="btn btn-info btn-sm mt-2">
+          VIEW PROFILE
+        </button>
+      </div>
+      <div id="2" class="col-2 bg-white rounded shadow p-4 m-4">
+        <img
+          id="img2"
+          src=""
+          class="rounded-circle"
+          style="width: 135px; height: 135px"
+        />
+        <h6 id="h2" class="text-secondary mt-3"></h6>
+        <button onclick="locationn(id)" class="btn btn-info btn-sm mt-2">
+          VIEW PROFILE
+        </button>
+      </div>
+      <div id="3" class="col-2 bg-white rounded shadow p-4 m-4">
+        <img
+          id="img3"
+          src=""
+          class="rounded-circle"
+          style="width: 135px; height: 135px"
+        />
+        <h6 id="h3" class="text-secondary mt-3"></h6>
+        <button onclick="locationn(id)" class="btn btn-info btn-sm mt-2">
+          VIEW PROFILE
+        </button>
+      </div>
+      <div id="4" class="col-2 bg-white rounded shadow p-4 m-4">
+        <img
+          id="img4"
+          src=""
+          class="rounded-circle"
+          style="width: 135px; height: 135px"
+        />
+        <h6 id="h4" class="text-secondary mt-3"></h6>
+        <button onclick="locationn(id)" class="btn btn-info btn-sm mt-2">
+          VIEW PROFILE
+        </button>
+      </div>
+      <div id="5" class="col-2 bg-white rounded shadow p-4 m-4">
+        <img
+          id="img5"
+          src=""
+          class="rounded-circle"
+          style="width: 135px; height: 135px"
+        />
+        <h6 id="h5" class="text-secondary mt-3"></h6>
+        <button onclick="locationn(id)" class="btn btn-info btn-sm mt-2">
+          VIEW PROFILE
+        </button>
+      </div>
+      <div id="6" class="col-2 bg-white rounded shadow p-4 m-4">
+        <img
+          id="img6"
+          src=""
+          class="rounded-circle"
+          style="width: 135px; height: 135px"
+        />
+        <h6 id="h6" class="text-secondary mt-3"></h6>
+        <button onclick="locationn(id)" class="btn btn-info btn-sm mt-2">
+          VIEW PROFILE
+        </button>
+      </div>
+      <div id="7" class="col-2 bg-white rounded shadow p-4 m-4">
+        <img
+          id="img7"
+          src=""
+          class="rounded-circle"
+          style="width: 135px; height: 135px"
+        />
+        <h6 id="h7" class="text-secondary mt-3"></h6>
+        <button onclick="locationn(id)" class="btn btn-info btn-sm mt-2">
+          VIEW PROFILE
+        </button>
+      </div>
+      <div id="8" class="col-2 bg-white rounded shadow p-4 m-4">
+        <img
+          id="img8"
+          src=""
+          class="rounded-circle"
+          style="width: 135px; height: 135px"
+        />
+        <h6 id="h8" class="text-secondary mt-3"></h6>
+        <button onclick="locationn(id)" class="btn btn-info btn-sm mt-2">
+          VIEW PROFILE
+        </button>
+      </div>
+      <div id="9" class="col-2 bg-white rounded shadow p-4 m-4">
+        <img
+          id="img9"
+          src=""
+          class="rounded-circle"
+          style="width: 135px; height: 135px"
+        />
+        <h6 id="h9" class="text-secondary mt-3"></h6>
+        <button onclick="locationn(id)" class="btn btn-info btn-sm mt-2">
+          VIEW PROFILE
+        </button>
+      </div>
+      <div id="10" class="col-2 bg-white rounded shadow p-4 m-4">
+        <img
+          id="img10"
+          src=""
+          class="rounded-circle"
+          style="width: 135px; height: 135px"
+        />
+        <h6 id="h10" class="text-secondary mt-3"></h6>
+        <button onclick="locationn(id)" class="btn btn-info btn-sm mt-2">
+          VIEW PROFILE
+        </button>
+      </div>
+    </div>
+
+    <div id="pagination" class="mt-4 d-flex my-5 justify-content-center">
+      <h5 id="prev" class="text-white p-1">Prev</h5>
+      <h6 id="p1" class="p-2 bg-white text-secondary rounded mx-1">1</h6>
+      <h6 id="p2" class="p-2 bg-dark text-white rounded mx-1">2</h6>
+      <h6 id="p3" class="p-2 bg-white text-secondary rounded mx-1">3</h6>
+      <h6 id="p4" class="p-2 bg-white text-secondary rounded mx-1">4</h6>
+      <h6 id="p5" class="p-2 bg-white text-secondary rounded mx-1">5</h6>
+      <h6 id="p6" class="p-2 bg-white text-secondary rounded mx-1">6</h6>
+      <h6 id="p7" class="p-2 bg-white text-secondary rounded mx-1">7</h6>
+      <h6 id="p8" class="p-2 bg-white text-secondary rounded mx-1">8</h6>
+      <h6 id="p9" class="p-2 bg-white text-secondary rounded mx-1">9</h6>
+      <h6 id="p10" class="p-2 bg-white text-secondary rounded mx-1">10</h6>
+      <h5 id="next" class="text-white p-1">Next</h5>
+    </div>
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
